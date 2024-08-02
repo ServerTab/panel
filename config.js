@@ -3,8 +3,8 @@ module.exports = {
 	lyricsMaxResults: 5, //- Number of results for lyrics command (Do not touch this value if you don't know what you are doing)
 	adminId: "751347550702927882", //- Replace UserId with the Discord ID of the admin of the bot
 	token: process.env.token || "", //- Bot's Token
-	clientId: process.env.clientId || "1266994097382625382", //- ID of the bot
-	clientSecret: process.env.clientSecret || "f1Crso7kuQDaWnxXC8_A3fODHLbomMRF", //- Client Secret of the bot
+	clientId: process.env.clientId || "", //- ID of the bot
+	clientSecret: process.env.clientSecret || "", //- Client Secret of the bot
 	port: 4200, //- Port of the API and Dashboard
 	scopes: ["identify", "guilds", "applications.commands"], //- Discord OAuth2 Scopes
 	inviteScopes: ["bot", "applications.commands"], // Invite link scopes
